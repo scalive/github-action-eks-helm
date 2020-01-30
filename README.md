@@ -23,7 +23,7 @@ jobs:
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
-          args: ls
+          args: helm ls
 ```
 
 ### EKS Example
@@ -51,7 +51,7 @@ jobs:
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
-          args: ls
+          args: helm ls
 ```
 
 ## Config
